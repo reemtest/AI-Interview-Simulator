@@ -1,0 +1,2 @@
+Backend Engineer. Requirements: Python, REST APIs, PostgreSQL, Docker, testing,
+teamwork and clear communication. Nice to have: cloud basics (AWS), CI/CD.

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets (never commit these)
+.env
+.streamlit/secrets.toml
+
+# Local backups and OS junk
+old_local/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,3 @@
+Python developer with 2 years of experience. Built REST APIs with Django and Flask,
+worked with PostgreSQL and Redis, basic Docker knowledge. Final project: a library
+management system. Familiar with Git and unit testing with pytest.
