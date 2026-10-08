@@ -19,4 +19,3 @@ Then paste the Kaggle ngrok URL into the sidebar.
 ## Backend
 
 The Kaggle notebook is in `kaggle/interview_backend.ipynb`.
-Needs secrets `GOOGLE_API_KEY` and `NGROK_TOKEN` (never commit these).
