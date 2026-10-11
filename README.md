@@ -75,11 +75,6 @@ streamlit run app.py
 
 Paste the public URL and the password into the sidebar, load a CV, and start the interview. The free ngrok URL changes whenever the server restarts, so update it in the sidebar each time.
 
-## Limitations
-
-- The reference material for retrieval is small, so its effect is modest.
-- Each answer is graded on its own, without the CV or the other answers.
-- Scores come from a language model and can vary slightly between runs.
 
 ## Future work
 
