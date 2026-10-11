@@ -1,14 +1,12 @@
 """Streamlit GUI for the AI Interview Simulator (backend runs on Kaggle)."""
+
 import os
 from pathlib import Path
 import streamlit as st
-from api_client import (set_base_url, build_retriever, generate_questions,
-                        evaluate_answer, final_report, generate_job_description,
-                        suggest_role_and_jd)
-from pdf_utils import extract_pdf_text
 from api_client import (set_base_url, set_password, build_retriever, generate_questions,
                         evaluate_answer, final_report, generate_job_description,
                         suggest_role_and_jd)
+from pdf_utils import extract_pdf_text
 
 DATA = Path(__file__).parent / "Data"
 if not DATA.exists():
@@ -149,11 +147,8 @@ else:
             st.write("**Suggestions:**")
             for t in ev.suggestions:
                 st.write(f"- {t}")
-    if report["strengths"]:
-        st.write("**Strengths:**", "; ".join(report["strengths"]))
-    if report["weaknesses"]:
-        st.write("**Needs work:**", "; ".join(report["weaknesses"]))
+    
     if st.button("Start over"):
         for k in ["started", "questions", "idx", "results", "retriever"]:
-            del st.session_state[k]
+            st.session_state.pop(k, None)
         st.rerun()

@@ -1,7 +1,0 @@
-Tell me about a challenging project you worked on and how you solved the problems you faced.
-How do you handle disagreements with a teammate about a technical decision?
-Explain a time you had to learn a new technology quickly. What was your approach?
-How do you test and debug your code before delivering it?
-Describe how you would design a simple REST API for a todo application.
-What is the difference between SQL and NoSQL databases, and when would you use each?
-Where do you see yourself in two years, and how does this role fit that plan?
